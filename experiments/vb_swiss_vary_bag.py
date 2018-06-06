@@ -43,7 +43,7 @@ for bag_size_c in bag_size:
         '--n-test', str(500),
         '--size-mean', str(mean),
         '--size-std', str(std),
-        '--max-epochs', str(50),
+        '--max-epochs', str(450),
         '--dim', str(18),
         '--landmark-choice', 'all',
         '--indiv-kernel', 'rbf',

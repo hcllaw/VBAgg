@@ -41,7 +41,7 @@ for bag_size_c in bag_size:
         '--n-estop', str(bag_size_c),
         '--n-val', str(bag_size_c),
         '--link', str(link_c),
-        '--n-test', str(500),
+        '--n-test', str(450),
         '--size-mean', str(mean),
         '--size-std', str(std),
         '--max-epochs', str(50),
