@@ -5,7 +5,6 @@ from functools import partial
 import os
 import sys
 import time
-sys.path.append('/Users/hochunglaw/Desktop/VBAgg/vb_agg_learn')
 
 import numpy as np
 import tensorflow as tf
