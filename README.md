@@ -22,4 +22,4 @@ For example:
 ```
 python train_test.py swiss --net-type vb /folder/to/save/to
 ```
-would run the VBAgg algorithm and save results to ```/folder/to/save/to```, while using the default options. Experimental code for various models is found in ```/experiment``` and can run directly. 
+would run the VBAgg algorithm and save results to ```/folder/to/save/to```, while using the default options. Experimental code for various models is found in ```/experiment``` and can be ran directly. 
