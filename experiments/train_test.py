@@ -274,7 +274,7 @@ def _split_feats(args, feats_x, indiv_pop, feats_y, feats_index, bag_pop, missin
 def generate_data(args):
     # Toy + Bagging Elevators dataset
     if args.dataset in ['s_shape', 'swiss', 'swiss_bag', 'elevators']:
-        from agg_learn.data.toy import Toy
+        from vb_agg_learn.data.toy import Toy
         d = dict(
             dim=args.dim,
             preprocess=args.preprocess,
