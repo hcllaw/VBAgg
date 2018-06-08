@@ -10,10 +10,10 @@ import matplotlib.pyplot as plt
 from scipy import stats
 
 
-from agg_learn.utils import scaler_transform, increase_dim, standardise, swiss_norm, elevators_norm
-from agg_learn.mal_features import Mal_features
-from agg_learn.kernel_computations import Kernel_computations
-from agg_learn.toy_low_dim import sphere, rotate_orth
+from vb_agg_learn.utils import scaler_transform, increase_dim, standardise, swiss_norm, elevators_norm
+from vb_agg_learn.mal_features import Mal_features
+from vb_agg_learn.kernel_computations import Kernel_computations
+from vb_agg_learn.toy_low_dim import sphere, rotate_orth
 
 # Toy Generation Classes 
 class Toy:
