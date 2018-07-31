@@ -24,4 +24,4 @@ python train_test.py swiss --net-type vb /folder/to/save/to
 ```
 would run the VBAgg algorithm and save results to ```/folder/to/save/to```, while using the default options. Experimental code for various models is found in ```/experiment``` and can be ran directly. 
 
-Just a disclaimer that the code is not completely optimised, and some parts can be a little more clean. I will update it more in the recent future.
+Just a disclaimer that the code is not completely optimised, and many parts is not very clean. I will update it more in the recent future, and include jupyter notebooks.
