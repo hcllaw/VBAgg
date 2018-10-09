@@ -3,6 +3,7 @@ Python code (tested on 2.7) for aggregate output learning with Gaussian processe
 
 H. Law, D. Sejdinovic, E. Cameron, T. CD Lucas, S. Flaxman, K. Battle, K. Fukumizu, Variational Learning on Aggregate Outputs with Gaussian Processes, 2018 (https://arxiv.org/abs/1805.08463)
 
+Just a disclaimer that the code is not completely optimised, and many parts is not very clean. I will update it more in the recent future, and include jupyter notebooks. Due to data confidentiality reasons, we do not provide the malaria data we used in the paper. 
 ## Setup
 To setup as a package, clone the repository and run
 ```
@@ -23,5 +24,3 @@ For example:
 python train_test.py swiss --net-type vb /folder/to/save/to
 ```
 would run the VBAgg algorithm and save results to ```/folder/to/save/to```, while using the default options. Experimental code for various models is found in ```/experiment``` and can be ran directly. 
-
-Just a disclaimer that the code is not completely optimised, and many parts is not very clean. I will update it more in the recent future, and include jupyter notebooks. Due to data confidentiality reasons, we do not provide the malaria data we used in the paper. 
