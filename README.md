@@ -3,7 +3,7 @@ Python code (tested on 2.7) for aggregate output learning with Gaussian processe
 
 H. Law, D. Sejdinovic, E. Cameron, T. CD Lucas, S. Flaxman, K. Battle, K. Fukumizu, Variational Learning on Aggregate Outputs with Gaussian Processes, NeurIPS 2018 (https://arxiv.org/abs/1805.08463)
 
-At the moment, the code is not optimised and many parts is not very clean. Hence, I would recommend to wait till January next year, where I will have instructions and also a cleaner version of this code.
+At the moment, the code is not optimised and many parts is not very clean. Hence, I would recommend to wait till April, where I will have instructions and also a cleaner version of this code.
 
 Due to data confidentiality reasons, we do not provide the malaria data we used in the paper.
 
